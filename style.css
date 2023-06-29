@@ -120,11 +120,27 @@ button {
     width: 1160px;
 }
 
+.sqrcnt {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 130px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
 .square {
     padding: 60px;
     background-color: white;
     border: solid 2px #3882F6;
     border-radius: 8px;
+}
+
+.sqrtxt {
+    font-weight: 100;
+    color: #1f2937;
+    font-size: small;
 }
 
 .sec3 {
