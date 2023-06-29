@@ -136,6 +136,8 @@ button {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .quote {
@@ -160,6 +162,39 @@ button {
     width: 1160px;
     height: 200px;
 }
+
+.bluebox {
+    
+    background-color: #3881f6ec;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+    gap: 80px;
+}
+
+.cta {
+    color: #F9FAF8;
+}
+
+.ctatop {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ctabottom {
+    font-weight: 100;
+    font-size: small;
+}
+
+.subtn {
+    background-color: #3881f600;
+    border: solid 1px #F9FAF8;
+}
+
 
 .footer {
     display: flex;
